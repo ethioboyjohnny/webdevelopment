@@ -7,8 +7,8 @@ st.title("Web Development Lab03")
 # TODO: Fill out your team number, section, and team members
 
 st.header("CS 1301")
-st.subheader("Team XX, Web Development - Section X")
-st.subheader("Team Member 1, Team Member 2")
+st.subheader("Team N/A, Web Development - Section A/C")
+st.subheader("Hongbi An, jonathan Yohanens")
 
 
 # Introduction
@@ -21,10 +21,9 @@ st.subheader("Team Member 1, Team Member 2")
 st.write("""
 Welcome to our Streamlit Web Development Lab03 app! You can navigate between the pages using the sidebar to the left. The following pages are:
 
-1. Hongbi's Portfolio
-2. Jonathan's Portfolio
-3. Origami tutorial 
-4. Ultra Gemini
+1. Hongbi's Portfolio: Learn About Hongi!
+2. Jonathan's Portfolio: Learn About Jonathan!
+3. Origami tutorial: Fold a crane if you'd like!
+4. Ultra Gemini: Find out more about numbers!
 
 """)
-
