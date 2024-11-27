@@ -24,7 +24,7 @@ Welcome to our Streamlit Web Development Lab03 app! You can navigate between the
 1. Hongbi's Portfolio
 2. Jonathan's Portfolio
 3. Origami tutorial 
-4. 
+4. Ultra Gemini
 
 """)
 
