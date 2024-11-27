@@ -2,8 +2,8 @@
 #This File will contain the information to be displayed in your portfolio
 
 #CHANGE BELOW
-profile_picture = "Images/profile.jpeg"
-about_me = "I'm SpongeBobe Square Pants. I work at the Krusty Krab and I make fantastic Krabby Patties. "
+profile_picture = "Images/baby.jpeg"
+about_me = "I'm Hongbi An. I am from Korea, and am a first year Georgia Tech as a Computaitonal Media student. "
 
 
 #CHANGE BELOW (OPTIONAL)
@@ -18,29 +18,31 @@ my_email_address = "spongebob@gmail.com"
 
 
 education_data ={
-    'Degree': 'Bachelor of Science in Computer Science',
+    'Degree': 'Bachelor of Science in Computational Media',
     'Institution': 'Georgia Institute of Technology',
     'Location': 'Atlanta, GA',
-    'Graduation Date': 'Never',
+    'Graduation Date': 'May 2028',
     'GPA': '4.0'
 }
 course_data = {
-    "code":["CS 1301", "CS 1331", "MATH 1554", "CS 2050"], 
-    "names":["Intro to CS", "Intro to OOP", "Linear Algebra", "Discrete Mathematics"], 
-    "semester_taken":["2nd", "3rd", "2nd", "2nd"],
-    "skills":["Python is not my favorite snake anymore", "OOP(S!) (Java Edition)", "Basically row reduction", "If only my grade was discrete too..."],
+    "code":["CS 1301", "MATH 1551", "ENGL 1102", "INTA 1200", "BIOS 1107", "CS 1100", "APPH 1040"], 
+    "names":["Intro to CS", "Differential Calculus", "English Composition 2", "American Government", "Biological Principles", "GT College of Computing Services","Scientific Foundations of Health"], 
+    "semester_taken":["1st", "1st", "1st", "1st", "1st", "1st", "1st"],
+    "skills":["Python", "Rate of Change", "Communication", "History","Inside our Body","CS/CM Career Guide","Mental and Physical Health"],
     }
 experience_data = {
-    "Cook at Krusty Krab": (["- Worked on designing the Krabby Patty Recipe",
-                                                                          "- Increased Company Revenue by 200 dollars", "- Made Mr. Krabs Proud"],"Images/cook.jpg"),
-    "Cleaner at Krusty Krab":(["- Made the floor almost reflective",
-                                                           "- Increased customer visits by three folds by making restaurant clean"],"Images/cleaner.jpg"),
-    "Jelly Fish Catcher":(["- Caught 100+ Jellyfish with the help of my colleague Patrick"],"Images/jelly.jpg")
+    "Korean University Internship": (["- Worked with in a Data Analytics Team with graduate students",
+                                                                          "- Was in charge of prompt engineering, using dall-E to create AI-generated images of fashion trends", "-"],"Images/intern.png"),
+    "iOS Club at Georgia Tech":(["- Was part of a iOS Club team, working on the app Vineyard as a UI designer",
+                                                           "- Designed several screens and graphic illustrations for the app"],"Images/ios.png"),
+    "Design Club at Georgia Tech":(["- Went to workshops to enhance designing skills in UI/UX"],"Images/design.jpeg")
+
+    
 
 }
 
 projects_data = {
-    "Krabby Patty Recipe": "Created the famous Recipe and tailored it from scratch",
+    "Game Menu": ["Programmed an original game menu with self-illustrated UI screens",]
 }
 
 programming_data = {
@@ -55,22 +57,27 @@ programming_icons = {
     "Java": "☕",
     "C": "🔍",
 }
-spoken_icons = {"French": "🇫🇷",
+spoken_icons = {"Korean": "🇰🇷",
     "English": "🇬🇧",
+    "German":"🇩🇪",
+    "Japanese":"🇯🇵",
     "Spanish":"🇪🇸"
 }
 
 #CHANGE BELOW
 spoken_data = {
     "English": "Fluent",
-    "French": "Fluent",
-    "Spanish": "Fluent",
+    "Korean": "Fluent",
+    "German": "Fluent",
+    "Japanese": "Conversational",
+    "Spanish": "Conversational"
 }
 leadership_data = {
-    "Driver at Mrs Puff's School": (["- Elected Worst Student of the Century"],"Images/puff.jpg"),
+    "Leader and Founder of Animal Care Club": (["- Took care of sheltered animals, raising funds, and doing acts of service at the shelters"],"Images/pets.jpg"),
 
 }
 activity_data={
-    "SpongeBob and Patrick Friendship Club": ["- Conviced Squidwards to have fun", 
-            "- Sat under Patrick's rock"]
+    "Animal shelters": ["- Took out sheltered dogs on walks every weekend for 3 months"],
+    "Elderly Hosptial": ["- Performed on the piano in front of elders in elderly hosptials"],
+    "VASE Trip": ["- Went on a trip to one of the rural areas of Korea and took care of disabled people for three days, spending time with them, talking with them, and making stuff together"]
 }
